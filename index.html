@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Парикмахерская "Татьяна"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4af5d3f501.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mystyles.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <script src="bootstrap/js/bootstrap.bundle.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- navbar -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-md-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand dance-font">Beauty Salon <span class="text-warning">ТАТЬЯНА</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#restaurant-navbar" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="restaurant-navbar">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- <li class="navbar-item px-3">
+                            <a href="#" class="nav-link">Home</a>
+                        </li> -->
+                        <li class="navbar-item px-3">
+                            <a href="#cards" class="nav-link">Мастера</a>
+                        </li>
+                        <li class="navbar-item px-3">
+                            <a href="#menus" class="nav-link">Услуги</a>
+                        </li>
+                        <li class="navbar-item px-3">
+                            <a href="#specials" class="nav-link">Цены</a>
+                        </li>
+                        </li>
+                        <li class="navbar-item px-3">
+                            <a href="#contact" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- Slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/800x400_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/800x400_4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/800x400_5.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Specials -->
+        <div class="specials p-5" id="specials">
+            <div class="container">
+                <div class="grid">
+                    <div class="row m-3">
+                        <div class="col-md-4 text-center mt-3">
+                            <i class="fa fa-hand-holding-dollar fa-4x text-success"></i>
+                            <p class="h2 fw-bold my-2">Выгодные расценки</p>
+                            <p class="lead fst-italic">Женские и мужские стрижки - от 450 руб. Окрашивание или
+                                мелирование волос - от 500 руб. Химическая завивка - от 400 руб. свадебные причёски - от
+                                800 руб.
+                            </p>
+                        </div>
+                        <div class="col-md-4 text-center mt-3">
+                            <i class="fa fa-bank fa-4x text-danger"></i>
+                            <p class="h2 fw-bold my-2">Скидки пенсионерам</p>
+                            <p class="lead fst-italic">При предъявлении пенсионного удостоверения, предоставляем скидки
+                                наши услуги до 50%. Только в будние дни с 11:00 до 15:00 часов.</p>
+                        </div>
+                        <div class="col-md-4 text-center mt-3">
+                            <i class="fa fa-money-bill-transfer fa-4x text-warning"></i>
+                            <p class="h2 fw-bold my-2">Способы оплаты</p>
+                            <p class="lead fst-italic">Оплата услуг производится наличными, банковским переводом с карты
+                                на карту (Сбербанк), в
+                                том числе по системе быстрых платежей.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section -->
+        <section class="menus">
+            <div class="menu-1 bg-dark p-5" id="menus">
+                <div class="container">
+                    <div class="grid">
+                        <div class="row text-white align-items-center">
+                            <div class="col-md-6">
+                                <p class="h2">Подготовительные <span class="text-warning">процедуры</span></p>
+                                <p class="lead fst-italic">Мытье головы необходимо перед окрашиванием волос. Процедура
+                                    выполняется с наклоном головы назад в
+                                    парикмахерской мойке с удобным креслом. Раковина мойки имеет выемку, дающую
+                                    возможность клиенту плотно прижать к ней шею и таким образом защитить одежду от
+                                    протекания.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="img/services_1.jpg" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-2 bg-white p-5">
+                <div class="container">
+                    <div class="grid">
+                        <div class="row text-dark align-items-center">
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="img/services_2.jpg" alt="..." />
+                            </div>
+                            <div class="col-md-6 mt-3">
+                                <p class="h2">Завивка и <span class="text-warning">Укладка</span></p>
+                                <p class="lead fst-italic">Долговременная завивка волос, держится до полугода, локоны,
+                                    кудри или эффект "пляжной волны". Добавляет объём вашим волосам, романтичности и
+                                    стиля в образ, не требует сложного ухода, не повреждает волос. В работе используются
+                                    препараты последнего поколения, современные техники и методики - всегда превосходный
+                                    результат.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-3 bg-dark p-5">
+                <div class="container">
+                    <div class="grid">
+                        <div class="row text-white align-items-center">
+                            <div class="col-md-6">
+                                <p class="h2">Маникюр и <span class="text-warning">Педикюр</span></p>
+                                <p class="lead fst-italic">Аппаратный маникюр и педикюр выравнивание ногтевой пластины.
+                                    Покрытие ногтей гель-лаком, стразами, оригинальный дизайн, а также снятие гель-лака.
+                                    Огромный выбор цветных гель-лаков (более 200 цветов). Все инструменты проходят трёх
+                                    этапную дезинфекцию и стерилизацию.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-fluid" src="img/services_3.jpg" alt="..." />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards -->
+        <section class="cards p-5" id="cards">
+            <div class="container">
+                <div class="grid">
+                    <div class="row mt-5">
+
+                        <div class="col-md-3">
+                            <div class="card shadow-lg my-2">
+                                <img src="img/7flower.jpg" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <p class="h3 card-title fw-bold">Алина</p>
+                                    <p class="dance-font text-muted">Парикмахер, Визажист</p>
+                                    <P>Опыт более 8 лет. Женские, мужские и детские стрижки. Свадебные причёски,
+                                        окрашивание волос.</P>
+                                    <div class="d-flex justify-content-around">
+                                        <i class="fa fa-whatsapp fa-2x text-success"></i>
+                                        <i class="fa fa-instagram fa-2x text-secondary"></i>
+                                        <i class="fa fa-facebook-official fa-2x text-primary"></i>
+                                        <i class="fa fa-youtube fa-2x text-danger"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card shadow-lg my-2">
+                                <img src="img/2flower.jpg" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <p class="h3 card-title fw-bold">Вадим</p>
+                                    <p class="dance-font text-muted">Парикмахер</p>
+                                    <P>Опыт более 6 лет. Мужские и женские стрижки. Модные причёски на каждый
+                                        день, окрашивание волос.</P>
+                                    <div class="d-flex justify-content-around">
+                                        <i class="fa fa-whatsapp fa-2x text-success"></i>
+                                        <i class="fa fa-instagram fa-2x text-secondary"></i>
+                                        <i class="fa fa-facebook-official fa-2x text-primary"></i>
+                                        <i class="fa fa-youtube fa-2x text-danger"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card shadow-lg my-2">
+                                <img src="img/1flower.jpg" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <p class="h3 card-title fw-bold">Ольга</p>
+                                    <p class="dance-font text-muted">Мастер ногтевого сервиса</p>
+                                    <P>Опыт более 9 лет. Аппаратный маникюр, маникюр с покрытием гель-лаком, дизайн
+                                        ногтей.</P>
+                                    <div class="d-flex justify-content-around">
+                                        <i class="fa fa-whatsapp fa-2x text-success"></i>
+                                        <i class="fa fa-instagram fa-2x text-secondary"></i>
+                                        <i class="fa fa-facebook-official fa-2x text-primary"></i>
+                                        <i class="fa fa-youtube fa-2x text-danger"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card shadow-lg my-2">
+                                <img src="img/3flower.jpg" class="img-fluid" alt="">
+                                <div class="card-body">
+                                    <p class="h3 card-title fw-bold">Кристина</p>
+                                    <p class="dance-font text-muted">Мастер эпиляции</p>
+                                    <P>Опыт более 3 лет. Эпиляция воском и шугаринг, лазерная эпиляция, для жещин и
+                                        мужчин.</P>
+                                    <div class="d-flex justify-content-around">
+                                        <i class="fa fa-whatsapp fa-2x text-success"></i>
+                                        <i class="fa fa-instagram fa-2x text-secondary"></i>
+                                        <i class="fa fa-facebook-official fa-2x text-primary"></i>
+                                        <i class="fa fa-youtube fa-2x text-danger"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer bg-dark text-white p-5 mt-5" id="contact">
+
+        <div class="container">
+            <div class="grid">
+                <div class="row align-items-center mt-3">
+                    <div class="col-md-4">
+                        <p>Copyright @ 2022</p>
+                        <p>Салон-парикмахерская "Татьяна".</p>
+                        <small>Адрес: 445028, Самарская обл., г. Тольятти, Автозаводский район, ул.
+                            Фрунзе, д. 35, под. 3.</small> <br />
+                        <small>Конт. телефон: +7 (927) 891 54 35.</small>
+                    </div>
+                    <div class="col-md-4 offset-md-4">
+                        <form action="">
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                            <div class="mb-2">
+                                <input type="number" class="form-control" placeholder="Номер мобильного">
+                            </div>
+                            <div class="mb-2">
+                                <textarea rows="3" class="form-control" placeholder="Сообщение"></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <input type="submit" class="btn btn-warning" value="Отправить">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
